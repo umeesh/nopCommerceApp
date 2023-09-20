@@ -11,7 +11,7 @@ from utilities import XLUtils
 
 class Test_002_DDT_Login:
     baseURL = ReadConfig.getApplicationURL()
-    path = '../TestData/LoginData.xlsx'
+    path = '.\\TestData\\LoginData.xlsx'
     logger = LogGen.loggen()
 
     @pytest.mark.regresion

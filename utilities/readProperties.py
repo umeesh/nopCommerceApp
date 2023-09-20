@@ -1,7 +1,7 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read('../Configurations/config.ini')
+config.read(r'.\\Configurations\\config.ini')
 
 
 class ReadConfig:
@@ -19,4 +19,3 @@ class ReadConfig:
     def getPassword():
         password = config.get('common info', 'password')
         return password
-

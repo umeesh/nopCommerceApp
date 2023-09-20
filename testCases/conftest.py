@@ -31,7 +31,7 @@ def setup():
 #
 #
 # ###################### PYTEST HTML REPORTS####################################
-# # It is hook for adding environment info to the HTML Report.
+# It is hook for adding environment info to the HTML Report.
 # def pytest_configure(config):
 #     config._metadata['Project Name'] = 'nop commerce'
 #     config._metadata['Module Name'] = 'Customer'
